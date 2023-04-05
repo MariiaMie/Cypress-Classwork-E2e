@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe("Drugi test", () => {
 	it("Drugie logowanie na stronie edukacyjnej LMS", () => {
 		cy.visit("https://www.edu.goit.global/account/login");
