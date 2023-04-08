@@ -12,5 +12,6 @@ module.exports = defineConfig({
 			html: true,
 			json: false,
 		},
+		specPattern: "cypress/tests",
 	},
 });
