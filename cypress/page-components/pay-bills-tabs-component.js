@@ -1,4 +1,4 @@
-class PayBillsTabComponent {
+class PayBillsTab {
 	getAddNewPayeeTab() {
 		return cy.get("a").contains("Add New Payee");
 	}
@@ -6,4 +6,4 @@ class PayBillsTabComponent {
 		return cy.get(".ui-tabs-selected > a");
 	}
 }
-export default PayBillsTabComponent;
+export default PayBillsTab;
