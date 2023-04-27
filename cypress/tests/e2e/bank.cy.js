@@ -1,9 +1,9 @@
 /// <reference types="cypress" />
 
-import MainMenuComponent from "../page-components/main-menu-components";
-import PayBillsTabComponent from "../page-components/pay-bills-tabs-component";
-import AddNewPayeePage from "../pages/add-new-payee";
-import PaySavedPayee from "../pages/pay-saved-payee-page";
+import MainMenuComponent from "../../page-components/main-menu-components";
+import PayBillsTabComponent from "../../page-components/pay-bills-tabs-component";
+import AddNewPayeePage from "../../pages/add-new-payee";
+import PaySavedPayee from "../../pages/pay-saved-payee-page";
 
 describe("Pay Bills Test", () => {
 	let mainMenuComponent;
